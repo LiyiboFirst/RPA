@@ -1,0 +1,40 @@
+{
+  "name": "Login",
+  "description": "Login",
+  "main": "Connect.xaml",
+  "dependencies": {
+    "IronPython": "[2.7.10]",
+    "UiPath.Database.Activities": "[1.3.7369.25200]",
+    "UiPath.Excel.Activities": "[2.8.2-preview]",
+    "UiPath.Java.Activities": "[1.0.6863.33114]",
+    "UiPath.Mail.Activities": "[1.8.2-preview]",
+    "UiPath.Python.Activities": "[1.0.7346.28183]",
+    "UiPath.System.Activities": "[20.3.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.3.0-alpha]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.3.0.84",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
